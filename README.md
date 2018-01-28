@@ -1,4 +1,5 @@
 # aHDLC Data Frame Layer
+This is not an officially supported Google product
 
 This repository contains a micro controller friendly implimentation of a
 data framing layer, in C.
@@ -8,6 +9,19 @@ data framing layer, in C.
 
 CMake and Bazel build files have been included for your convenience.
 
+ Lib only
+ ```shell
+  cmake CMakeLists.txt
+  make all
+ ```
+Unit Tests
+``` shell
+  cmake CMakeLists.txt
+  make unit_tests
+  ./src/unit_tests/unit_tests
+  ```
+
+See unit tests for example usage.
 
 ## Source Code Headers
 
