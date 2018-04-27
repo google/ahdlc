@@ -1,7 +1,6 @@
 # Package for aHDLC.
 
 package(
-    default_copts = ["-DDISABLE_GOOGLE_GLOBAL_USING_DECLARATIONS"],
     default_visibility = ["//visibility:public"],
 )
 
